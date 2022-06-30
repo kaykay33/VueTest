@@ -1,0 +1,60 @@
+:root { 
+  --alto: #dddede;
+  --alto-2: #dddddd;
+  --black: #000000;
+  --haiti: #1c1833;
+  --purple-heart: #4514d0;
+  --violet-purple: #7d6db0;
+ 
+  --font-size-l: 40px;
+  --font-size-m: 30px;
+  --font-size-s: 26px;
+  --font-size-xl: 48px;
+  --font-size-xs: 22px;
+  --font-size-xxs: 20px;
+ 
+  --font-family-inter: "Inter", Helvetica;
+}
+.inter-semi-bold-alto-20px {
+  color: var(--alto);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.inter-semi-bold-alto-30px {
+  color: var(--alto);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.inter-semi-bold-alto-22px {
+  color: var(--alto-2);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.inter-semi-bold-alto-48px {
+  color: var(--alto);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.inter-semi-bold-alto-26px {
+  color: var(--alto);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.border-1px-black {
+  border: 1px solid var(--black);
+}
